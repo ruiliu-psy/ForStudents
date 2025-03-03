@@ -1,6 +1,6 @@
-# labcourse
+# Research Practice
 
-## **Lecture - Power Analysis**
+## **Lecture1 - Power Analysis**
 * Time: 4th March, 2025
 * Location: Leslokaal 4.5, H. Dunantlaan 2.
 * Preparation: Laptop, G-power, R (Rstudio)
@@ -14,3 +14,4 @@
 1) https://rpsychologist.com/d3/nhst/
 2) https://aaroncaldwell.us/Superpower/
 3) Lakens, D., & Caldwell, A. R. (2021). Simulation-Based Power Analysis for Factorial Analysis of Variance Designs. Advances in Methods and Practices in Psychological Science, 4(1), 251524592095150. https://doi.org/10.1177/2515245920951503
+* Example Script: 
