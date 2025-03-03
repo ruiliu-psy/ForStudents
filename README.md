@@ -14,4 +14,4 @@
 1) https://rpsychologist.com/d3/nhst/
 2) https://aaroncaldwell.us/Superpower/
 3) Lakens, D., & Caldwell, A. R. (2021). Simulation-Based Power Analysis for Factorial Analysis of Variance Designs. Advances in Methods and Practices in Psychological Science, 4(1), 251524592095150. https://doi.org/10.1177/2515245920951503
-* Example Script: 
+* Example Script: L1_PowerAnalysis_Simulation.R
