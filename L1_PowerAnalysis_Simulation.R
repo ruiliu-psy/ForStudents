@@ -26,14 +26,13 @@ library(Superpower)
 
 # experimental design
 string = "2w*2w" # 2 within-subject factors, factor A has 2 level, factor B has 2 level
-labelnames = c("FactorA", "A1", "A2", "FactorB", "B1", "B2")
+labelnames = c("FactorA", "A1", "A2", "FactorB", "B1", "B2") # names of factors and conditions
 
 # parameters from literature
 n <- 60 # sample size per condition
 mu = c(70, 60, 60, 70) # mean values per condition
-sd <- c(25, 25, 25, 25) # standard deviation per conditions
+sd <- c(25, 25, 25, 25) # standard deviation per condition
 r <- 0.5 # hypothetical correlation between dependent variables
-alpha_level <- 0.05
 
 # design object
 design_result <- ANOVA_design(design = string,
@@ -42,10 +41,13 @@ design_result <- ANOVA_design(design = string,
                               sd = sd, 
                               r = r, 
                               labelnames = labelnames)
-nsims <- 100 # the number of simulation
+
+# view simulation results
 simulation_result <- ANOVA_power(design_result, 
-                                 alpha_level = alpha_level, 
-                                 nsims = nsims)
+                                 alpha_level = 0.05, # significance level, 
+                                 nsims = 100) # the number of simulation
+
+# plot power curve
 plot_power(design_result,
-           max_n = 100,
-           desired_power = 80)
+           max_n = 100, # max number of sample size, shown as the end of the x-axis
+           desired_power = 80) # desired power, shown as red bar in the plot
