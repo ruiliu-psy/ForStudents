@@ -8,7 +8,7 @@
 1) Type I and Type II errors
 2) Power and Sample Size
 3) Power analysis of between-subject design (example: G-power)
-4) Power analysis of within-subject design (example: simulation-based analysis)
+4) Power analysis of within-subject design (example: simulation-based power analysis)
 5) Hands-on
 * References:
 1) Basic concepts of significance testing: https://rpsychologist.com/d3/nhst/
